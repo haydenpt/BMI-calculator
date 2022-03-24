@@ -53,7 +53,7 @@ const Form = () => {
       </div>
 
       <div className="row">
-        <p className="info">Your BMI is {BMI} and you are {info}</p>
+        {displayInfo && <p className="info">Your BMI is {BMI} and you are {info}</p>}
       </div>
     </div>
   );
